@@ -15,3 +15,5 @@ To install those libraries in command prompt or anaconda prompt:
    pip install numpy,
    pip install opencv.
 
+ Thank you.
+
