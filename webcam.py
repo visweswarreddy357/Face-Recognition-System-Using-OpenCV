@@ -2,8 +2,6 @@ import numpy as np
 import face_recognition as fr
 import cv2
 cap = cv2.VideoCapture(0)
-cap.set(3,640)
-cap.set(4,480)
 image = fr.load_image_file("Mahesh babu.jpg")
 face_encoding = fr.face_encodings(image)[0]
 known_face_encondings = [face_encoding]
